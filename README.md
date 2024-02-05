@@ -1,5 +1,7 @@
 # SoarSea P310s Hackintosh
 
+
+
 ![TinyMonster](ScreenShots/TinyMonsterPro.png)
 
 ## 电脑配置
@@ -8,7 +10,7 @@
 | :------: | :----------------------------------------------------------: |
 | 电脑型号 |                        SoarSea P310s                         |
 | 电脑型号 |                       TinyMonster Pro                        |
-| 操作系统 |           macOS `Ventura` / `Monterey` / `Big Sur`           |
+| 操作系统 |     macOS `Sonoma`  /`Ventura` / `Monterey` / `Big Sur`      |
 |  处理器  |                 英特尔 酷睿 i9-10900K 10C20T                 |
 |   内存   |                        64 GB 2933MHz                         |
 |  硬盘1   |               Nvme Only: `WD_BLACK SN750 2TB`                |
@@ -18,8 +20,39 @@
 |   声卡   |                  Realtek ALC269 `alcid=33`                   |
 |   网卡   | m.2 NGFF插槽，已更换为[BCM94360Z3]([首页-黑果小兵的部落阁-淘宝网 (taobao.com)](https://hackintosher.taobao.com/)) |
 
+![WX20240205-145603](ScreenShots/WX20240205-145603.png)
+
+
+
+## 注意事项
+
+需要 10代 CPU 和  BCM94360Z3 网卡, 如果不对可能会出现问题. 
+
+使用打补丁方式 Sonoma 后续每次更新都是全量, 更新完可能需要重新打补丁
+
+本项目根据大佬教程和原项目更新, 启动命令可能有冗余内容 目前使用未发现任何异常
+
++ 已经做好蓝牙定制  替换更新后 wifi 可以打开 搜索不到wifi 是正常情况.
+
+
+
+## 使用步骤
+
+提前下载好 `OpenCore Legacy Patcher` 工具
+
+1 下载项目中的EFI 替换本机, 设置- 全量更新到 Sonoma 正式版, 测试版系统未经过测试 请勿尝试.
+
+2 按照教程中使用 `OpenCore Legacy Patcher` 工具直接打好补丁重启就可以正常使用了
+
+
+
 ## 更新日志
 
+- 5-2-2024
+  Release `v2.0.0`
+  更新 OpenCore `v0.9.7`
+  支持 Sonoma 安装使用，[OCLP教程](https://blog.daliansky.net/OCLP.html)
+  
 - 3-21-2023
   - Release `v1.6.0`
   - OpenCore `v0.9.0`
