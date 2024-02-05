@@ -2,7 +2,7 @@
 
 
 
-![TinyMonster](ScreenShots/TinyMonsterPro.png)
+![TinyMonster](./ScreenShots/TinyMonsterPro.png)
 
 ## 电脑配置
 
@@ -20,7 +20,7 @@
 |   声卡   |                  Realtek ALC269 `alcid=33`                   |
 |   网卡   | m.2 NGFF插槽，已更换为[BCM94360Z3]([首页-黑果小兵的部落阁-淘宝网 (taobao.com)](https://hackintosher.taobao.com/)) |
 
-![WX20240205-145603](ScreenShots/WX20240205-145603.png)
+![WX20240205-145603](./ScreenShots/WX20240205-145603.png)
 
 
 
@@ -28,9 +28,15 @@
 
 需要 10代 CPU 和  BCM94360Z3 网卡, 如果不对可能会出现问题. 
 
+
+
 使用打补丁方式 Sonoma 后续每次更新都是全量, 更新完可能需要重新打补丁
 
+
+
 本项目根据大佬教程和原项目更新, 启动命令可能有冗余内容 目前使用未发现任何异常
+
+
 
 + 已经做好蓝牙定制  替换更新后 wifi 可以打开 搜索不到wifi 是正常情况.
 
@@ -49,15 +55,17 @@
 ## 更新日志
 
 - 5-2-2024
-  Release `v2.0.0`
-  更新 OpenCore `v0.9.7`
-  支持 Sonoma 安装使用，[OCLP教程](https://blog.daliansky.net/OCLP.html)
+  - Release `v2.0.0`
+  
+  - 更新 OpenCore `v0.9.7`
+  
+  - 支持 Sonoma 安装使用，[OCLP教程](https://blog.daliansky.net/OCLP.html)
   
 - 3-21-2023
   - Release `v1.6.0`
   - OpenCore `v0.9.0`
   - 支持 `Ventura` `13.3+`
-  
+
 - 11-2-2022
   - Release `v1.5.0`
   - OpenCore `v0.8.5`
@@ -81,7 +89,7 @@
 
 ## 截屏
 
-![zsh](ScreenShots/zsh.png)
+![zsh](./ScreenShots/zsh.png)
 
 ![Hackintool](ScreenShots/Hackintool.png)
 
