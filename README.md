@@ -53,6 +53,11 @@
 
 
 ## 更新日志
+- 19-2-2024
+  - Release `v2.0.2`
+  - 更新 OpenCore开发版 `v0.9.9`
+  - 支持 Sonoma 安装使用，[OCLP教程](https://blog.daliansky.net/OCLP.html)
+  
 - 6-2-2024
   - Release `v2.0.1`
   - 更新 OpenCore开发版 `v0.9.8`
