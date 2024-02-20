@@ -26,6 +26,8 @@
 
 ## 注意事项
 
+[OCLP教程](https://blog.daliansky.net/OCLP.html)
+
 需要 10代 CPU 和  BCM94360Z3 网卡, 如果不对可能会出现问题. 
 
 
@@ -38,7 +40,7 @@
 
 
 
-+ 已经做好蓝牙定制  替换更新后 wifi 可以打开 搜索不到wifi 是正常情况.
++ 已经做好蓝牙定制  替换更新后 wifi 可以打开 搜索不到wifi 是正常情况, **使用OCLP 打好补丁可以正常搜索wifi**.
 
 
 
@@ -48,7 +50,7 @@
 
 1 下载项目中的EFI 替换本机, 设置- 全量更新到 Sonoma 正式版, 测试版系统未经过测试 请勿尝试.
 
-2 按照教程中使用 `OpenCore Legacy Patcher` 工具直接打好补丁重启就可以正常使用了
+2 按照教程中使用 `OpenCore Legacy Patcher` 工具直接打好补丁重启就可以正常使用了 **如果遇到卡开机的可以按教程卸载后重复打补丁**
 
 
 
@@ -56,24 +58,18 @@
 - 19-2-2024
   - Release `v2.0.2`
   - 更新 OpenCore开发版 `v0.9.9`
-  - 支持 Sonoma 安装使用，[OCLP教程](https://blog.daliansky.net/OCLP.html)
-  
 - 6-2-2024
   - Release `v2.0.1`
   - 更新 OpenCore开发版 `v0.9.8`
   - 更新主题图标
-  - 支持 Sonoma 安装使用，[OCLP教程](https://blog.daliansky.net/OCLP.html)
-  
 - 5-2-2024
   - Release `v2.0.0`
   - 更新 OpenCore `v0.9.7`
   - 支持 Sonoma 安装使用，[OCLP教程](https://blog.daliansky.net/OCLP.html)
-  
 - 3-21-2023
   - Release `v1.6.0`
   - OpenCore `v0.9.0`
   - 支持 `Ventura` `13.3+`
-
 - 11-2-2022
   - Release `v1.5.0`
   - OpenCore `v0.8.5`
