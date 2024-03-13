@@ -25,7 +25,9 @@
 
 ## 注意事项
 
-[OCLP教程](https://blog.daliansky.net/OCLP.html) 	[OCLP最新版下载链接](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
+[OCLP教程](https://blog.daliansky.net/OCLP.html) 	
+
+[OCLP最新版下载链接](https://github.com/dortania/OpenCore-Legacy-Patcher/releases)
 
 需要 10代 CPU 和  **BCM94360NG/Z3/Z4** 系列网卡, 如果不对可能会出现问题.  大概率 Sonoma 是最后一版 完美黑果 且用且珍惜吧
 
@@ -33,15 +35,15 @@
 
 | 版本(正式版) | 注意事项                                                     |
 | ------------ | ------------------------------------------------------------ |
-| **14.4**     | **使用最新版OCPL 最新版 EFI** 如果已经遇到wifi打不开 替换EFI 最新OCPL打补丁 |
-| 14.3.1       | 需要OCPL打补丁                                               |
-| 14.3         | 需要OCPL打补丁                                               |
+| **14.4**     | **使用最新版OCLP 最新版 EFI** 如果已经遇到wifi打不开 替换EFI 最新OCLP打补丁 |
+| 14.3.1       | 需要OCLP打补丁                                               |
+| 14.3         | 需要OCLP打补丁                                               |
 
 使用打**补丁方式 Sonoma 后续每次OTA更新都是全量(13GB左右) 每次更新完需要重新打补丁 如最新正式版不在可用版本列表内, 切勿随意乱升级.** 
 
 本项目根据大佬教程和原项目更新, 启动命令可能有冗余内容 目前使用未发现任何异常
 
-+ **14.4 升级后如果 wifi 打不开** 替换项目最新EFI 下载最新版本 OCPL 打补丁后即可恢复正常 
++ **14.4 升级后如果 wifi 打不开** 替换项目最新EFI 下载最新版本 OCLP 打补丁后即可恢复正常 
 + 本项目EFI已经做好**USB定制**  
 + 替换EFI升级 Mac Sonoma 后 wifi 可以打开 **搜索不到wifi 是正常情况,  使用OCLP 打好补丁可以恢复正常**.
 + 目前本人使用 **连接手机热点 需要 iPhone 打开 最大兼容性设置才能正常使用手机热点**  双向隔空可以正常使用
