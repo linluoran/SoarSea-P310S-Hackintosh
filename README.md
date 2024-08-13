@@ -115,7 +115,7 @@
 - 8-13-2024
   - Release `v2.0.4`
   - 更新 OpenCore开发版 `v1.0.1` 
-  - 支持 `Sequoia  15.0`
+  - 支持 `Sequoia 15.0`
 - 12-3-2024
   - Release `v2.0.3`
   - 更新 OpenCore开发版 `v0.9.9`
