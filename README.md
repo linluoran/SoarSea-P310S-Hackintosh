@@ -27,27 +27,28 @@
 
 目前已经测试 Sequoia Developer Beta 版本, 如需尝鲜请仔细阅读
 
-我自己是选择 Sequoia 15.1 Developer Beta 然后更新上来的 
+我自己是选择 Sequoia 15.1 Developer Beta 然后更新上来的  现在切换到了 Sequoia Developer Beta 6
 
 ### mac Sequoia 目前测试过的可用版本
 
 | 版本(测试版)                                      | 注意事项           |
 | ------------------------------------------------- | ------------------ |
 | 15.0 (更新设置中选择 Sequoia 15.1 Developer Beta) | **使用 OCLP 16.0** |
+| 15.0  b6 (更新设置中选择 Sequoia Developer Beta)  | **使用 OCLP 16.0** |
 
 
 
 ### 目前存在已知问题
 
-+ **隔空仅可电脑投送手机, 手机无法投送电脑** (不知是配置问题还是需要OCLP后期修复)
-+ **隔空播放-屏幕镜像**无法使用 
 + **Sequoia新功能 手机镜像** 无法使用 (黑苹果可能都无法使用 看后续更新 **因缺少T2安全芯片**)
-
-接力功能是正常的
 
 
 
 ### 注意事项
+
+照着兵哥的最新更新项目抄了下作业, 更新了kext修改了启动参数 目前自己测试隔空接力均正常
+
+版本 15.0 B6  **如果隔空异常 请先检查 隔空投送是否打开**
 
 [OCLP教程](https://blog.daliansky.net/OCLP.html) 
 
@@ -57,7 +58,7 @@
 
 [OCLP 16.0 下载链接 百度云盘](https://pan.baidu.com/s/1YcvG-uRZwF3Y8K2w0ewO-w?pwd=r7ya) 访问码：r7ya 
 
-[OCLP 16.0 下载链接 189](https://cloud.189.cn/t/zY7JNr3yYNvu)  访问码：j1me
+[OCLP 16.0 下载链接 189](https://cloud.189.cn/t/zY7JNr3yYNvu)  访问码：j1me  
 
 
 
