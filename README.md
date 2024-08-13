@@ -9,7 +9,7 @@
 |   规格   |                           详细信息                           |
 | :------: | :----------------------------------------------------------: |
 | 电脑型号 |               SoarSea P310s / TinyMonster Pro                |
-| 操作系统 |     macOS `Sonoma`  /`Ventura` / `Monterey` / `Big Sur`      |
+| 操作系统 | macOS  `Sequoia` / `Sonoma`  /`Ventura` / `Monterey` / `Big Sur` |
 |  处理器  |                 英特尔 酷睿 i9-10900K 10C20T                 |
 |   内存   |                        64 GB 3200MHz                         |
 |  硬盘1   |               Nvme Only: `WD_BLACK SN750 2TB`                |
@@ -19,11 +19,51 @@
 |   声卡   |                  Realtek ALC269 `alcid=33`                   |
 |   网卡   | **支持BCM94360NG/Z3/Z4**  已更换为[BCM94360Z3]([首页-黑果小兵的部落阁-淘宝网 (taobao.com)](https://hackintosher.taobao.com/)) |
 
-![WX20240205-145603](./ScreenShots/WX20240205-145603.png)
+![WX20240205-145603](./ScreenShots/WX20240813-113355.png)
 
 
 
-## 注意事项
+## Sequoia 部分
+
+目前已经测试 Sequoia Developer Beta 版本, 如需尝鲜请仔细阅读
+
+我自己是选择 Sequoia 15.1 Developer Beta 然后更新上来的 
+
+### mac Sequoia 目前测试过的可用版本
+
+| 版本(测试版)                                      | 注意事项           |
+| ------------------------------------------------- | ------------------ |
+| 15.0 (更新设置中选择 Sequoia 15.1 Developer Beta) | **使用 OCLP 16.0** |
+
+
+
+### 目前存在已知问题
+
++ **隔空仅可电脑投送手机, 手机无法投送电脑** (不知是配置问题还是需要OCLP后期修复)
++ **隔空播放-屏幕镜像**无法使用 
++ **Sequoia新功能 手机镜像** 无法使用 (黑苹果可能都无法使用 看后续更新 **因缺少T2安全芯片**)
+
+接力功能是正常的
+
+
+
+### 注意事项
+
+[OCLP教程](https://blog.daliansky.net/OCLP.html) 
+
+需要使用 OCLP 16.0 目前正式版未发布 使用远景论坛公布的构建版本 升级步骤与 Sonoma 一样
+
+[远景论坛帖子地址](https://bbs.pcbeta.com/viewthread-2008099-1-1.html)
+
+[OCLP 16.0 下载链接 百度云盘]([https://pan.baidu.com/s/1YcvG-uRZwF3Y8K2w0ewO-w](https://pan.baidu.com/s/1YcvG-uRZwF3Y8K2w0ewO-w?pwd=r7ya)?pwd=r7ya ) 访问码：r7ya 
+
+[OCLP 16.0 下载链接 189](https://cloud.189.cn/t/zY7JNr3yYNvu)  访问码：j1me
+
+
+
+## Sonoma 部分
+
+### 注意事项
 
 [OCLP教程](https://blog.daliansky.net/OCLP.html) 	
 
@@ -69,6 +109,13 @@
 
 
 ## 更新日志
+
+
+
+- 8-13-2024
+  - Release `v2.0.4`
+  - 更新 OpenCore开发版 `v1.0.1` 
+  - 支持 `Sequoia  15.0`
 - 12-3-2024
   - Release `v2.0.3`
   - 更新 OpenCore开发版 `v0.9.9`
