@@ -52,15 +52,9 @@
 
 [OCLP教程](https://blog.daliansky.net/OCLP.html) 
 
-需要使用 OCLP 16.0 目前正式版未发布 使用远景论坛公布的构建版本 升级步骤与 Sonoma 一样
+需要使用 OCLP 16.0 目前正式版未发布 进入页面后选择最新构建版本下载 升级步骤与 Sonoma 一样
 
-[远景论坛帖子地址](https://bbs.pcbeta.com/viewthread-2008099-1-1.html)
-
-[OCLP 16.0 1644 下载链接 百度云盘](https://pan.baidu.com/s/1A4Y6XdDUq3wGABObMia7_Q?pwd=h4nz) 访问码：h4nz 
-
-[OCLP 16.0 1638 下载链接 百度云盘](https://pan.baidu.com/s/1t6k9Ohq6LqwdWe79gwlO9A?pwd=ahj0) 访问码：ahj0 
-
-[OCLP 16.0 1627 下载链接 百度云盘](https://pan.baidu.com/s/1YcvG-uRZwF3Y8K2w0ewO-w?pwd=r7ya) 访问码：r7ya 
+[OCLP测试版 下载地址](https://github.com/dortania/OpenCore-Legacy-Patcher/actions/workflows/build-app-wxpython.yml)
 
 
 
