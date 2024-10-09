@@ -3,3 +3,5 @@
 Owner/
 Release/
 */.DS_Store
+.idea
+EFI/OC/oldConfig.plist
