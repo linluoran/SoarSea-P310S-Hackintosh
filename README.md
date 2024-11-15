@@ -2,6 +2,12 @@
 
 
 
+## 因本人已更换设备为 mac mini
+
+## 本项目自 2024 11.15 起正式归档 停止维护 不再更新
+
+
+
 ![TinyMonster](./ScreenShots/TinyMonsterPro.png)
 
 ## 电脑配置
